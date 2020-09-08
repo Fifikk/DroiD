@@ -1,0 +1,96 @@
+body{
+	background: url(images/ajy.png);
+margin:1;
+padding: 1;
+line-height: 1.6;
+font-size: 15px;
+}
+
+header{
+	background: url(images/remont-iphone1-2-1.jpg);
+background-size: cover;
+	width: 100%;
+	length: 50%;
+
+}
+
+.logo img{
+width: 5%;
+height: 5%;
+
+}
+
+button{
+margin-top: 1%;
+margin-left: 15%;
+font-size: 20px;
+}
+
+h1{
+	text-align: center;
+	font-style: text;
+}
+
+h3{
+text-indent: 5px;
+}
+
+.info2 img{ 
+width: 3%;
+height: 3%;
+ }
+
+.slaids img {
+	margin-top: 40px;
+	width: 32%;
+	border-radius: 5px;
+}
+.slaids span { 
+	margin-right: 30px;
+	margin-left:30px;
+	margin-top: 40px;
+	border-radius: 5px;
+	background-color: yellow;
+	width: 100%;
+	font-family: georgia;
+	font-weight: bold;
+	color: red;
+	font-style: initial;}
+
+.slider {background-color:blue;
+	border-radius: 20px;
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+justify-content: center;
+align-items: center;
+}
+
+.slaids{ display: none; 
+	justify-content:center;
+	width:100%;
+	order:-1;
+	flex-wrap: wrap;}
+tr{
+	text-align: center;
+}
+
+.ty{
+	text-align: right;
+}
+
+input#slaid1:checked~.slaid1, input#slaid2:checked~.slaid2, input#slaid3:checked~.slaid3, input#slaid4:checked~.slaid4, input#slaid5:checked~.slaid5, input#slaid6:checked~.slaid6, input#slaid7:checked~.slaid7, input#slaid8:checked~.slaid8, input#slaid9:checked~.slaid9, input#slaid10:checked~.slaid10, input#slaid11:checked~.slaid11, input#slaid12:checked~.slaid12, input#slaid13:checked~.slaid13, input#slaid14:checked~.slaid14,  { display:flex;}
+
+.info3{
+text-align: center;
+}
+
+button.pp{
+ 	margin-left: 15%;
+ }
+
+ footer{
+ 	background: url(images/ajy.png);
+ 	background-size: cover;
+	width: 100%;
+ }
